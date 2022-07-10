@@ -1,18 +1,10 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'dart:convert';
 
 class CatalogModel {
-  static List<Item> items = [
-    Item(
-      id: 1,
-      name: "iphone 12",
-      desc: "Apple iphone 12th generation",
-      price: 999,
-      color: "#33505a",
-      image:
-          "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-pro-blue-hero?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1604021661000",
-    )
-  ];
+//   static List<Item> items;
+//   The non-nullable variable 'items' must be initialized.
+// Try adding an initializer 
+  static List<Item> items = <Item>[];
 }
 
 class Item {
