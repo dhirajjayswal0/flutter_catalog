@@ -38,6 +38,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
         backgroundColor: MyTheme.creamColor,
         body: SafeArea(
+          bottom: false,
           child: Container(
             padding: Vx.m32,
             child: Column(
