@@ -1,6 +1,6 @@
-# flutter_catalog
+# BJS - Bangalore job search
 
-A new Flutter project.
+A flutter project which takes json file for it's backend and shows users the list of jobs available 
 
 ## Getting Started
 
